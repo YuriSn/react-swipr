@@ -44,7 +44,7 @@ export default class ReactSwipr extends Component {
               <span
                 className='swipr_prev'
                 onClick={() => this.swipr.prev}
-              >
+              />
             </div>
         }
       </div>
