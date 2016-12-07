@@ -37,8 +37,14 @@ export default class ReactSwipr extends Component {
         {
           navigation &&
             <div className='nav'>
-              <span className='swipr_prev'>next</span>
-              <span className='swipr_prev'>prev</span>
+              <span
+                className='swipr_next'
+                onClick={() => this.swipr.next}
+              />
+              <span
+                className='swipr_prev'
+                onClick={() => this.swipr.prev}
+              >
             </div>
         }
       </div>
